@@ -1,0 +1,186 @@
+body {
+  background-color: rgb(108, 158, 201);
+  text-align: center;
+}
+
+.gu {
+  width: 30px;
+}
+
+.pa {
+  width: 30px;
+}
+
+.choki {
+  width: 30px;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+h1 h2 {
+  background: #000;
+}
+
+h1 h2 .handWrapper {
+  border: solid 5px dimgray;
+}
+
+h1,
+.outcome {
+  background-color: rgb(255, 255, 255);
+  border: solid 5px dimgray;
+  font-size: 28px;
+  margin: 0 0 30px;
+  border: radius 20px;
+}
+
+.task {
+  background-color: rgb(255, 255, 255);
+  border: solid 5px dimgray;
+  font-size: 28px;
+  margin: 0 0 30px;
+  border: radius 20px;
+}
+
+.board {
+  background-color: #5f48df;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.panel {
+  width: 220px;
+  background-color: lavender;
+}
+
+.player {
+  background-color: #33c43f;
+}
+
+.computer {
+  background-color: #a8da1d;
+}
+
+h2 {
+  /* background-color: aliceblue; */
+  margin: 0;
+  line-height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.handWrapper {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top-width: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.computer .handwrapper {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.computer .handwrapper.determined {
+  font-size: 40px;
+}
+
+.hand {
+  display: block;
+  margin: 10px auto;
+  width: 140px;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.hand:focus {
+  outline: none;
+}
+
+.rock {
+  background-color: pink;
+}
+
+.paper {
+  background-color: blue;
+}
+
+.scissors {
+  background-color: yellow;
+}
+
+.outcome {
+  margin-top: 30px;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.mb-50 {
+  margin-bottom: 30px;
+  width: 500px;
+  font-size: 24px;
+}
+
+.kotomi_calc {
+  background-color: yellow;
+  border: solid 5px dimgray;
+  font-size: 28px;
+  margin: 0 0 30px;
+  border: radius 20px;
+}
+
+.koyuki_calc {
+  background-color: yellow;
+  border: solid 5px dimgray;
+  font-size: 28px;
+  margin: 0 0 30px;
+  border: radius 20px;
+}
+
+.haru_calc {
+  background-color: yellow;
+  border: solid 5px dimgray;
+  font-size: 28px;
+  margin: 0 0 30px;
+  border: radius 20px;
+}
+
+.mei_calc {
+  background-color: yellow;
+  border: solid 5px dimgray;
+  font-size: 28px;
+  margin: 0 0 30px;
+  border: radius 20px;
+}
+
+.koyukitest {
+  background-color: aliceblue;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.kotomitest {
+  background-color: aliceblue;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.harutest {
+  background-color: aliceblue;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.meitest {
+  background-color: aliceblue;
+  font-size: 24px;
+  margin-bottom: 20px;
+}

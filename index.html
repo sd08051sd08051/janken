@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>じゃんけん</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+                    
+                        <h1>ジャンケンでお手伝いを決めよう</h1>
+
+                        <form id="form" class="mb-50">
+                          <input
+                            id="input"
+                            class="form-control mb-10"
+                            type="text"
+                            placeholder="家事を入力"
+                            autocomplete="off"
+                          />
+                        
+                        </form>
+
+                        
+
+
+                        <div class="board">
+                          <div class="panel player">
+                            <h2>めい・こゆき</h2>
+                            <div class="handWrapper">
+                              <button id="rock" class="hand rock" onClick="onHandClick(this)">
+                                <img class="gu" src="./img/janken_gu.png" alt="">
+                              </button>
+                              <button id="paper" class="hand paper" onClick="onHandClick(this)">
+                                <img class="pa" src="./img/janken_pa-300x300.png" alt="">
+                              </button>
+                              <button
+                                id="scissors"
+                                class="hand scissors"
+                                onClick="onHandClick(this)"
+                              >
+                                <img class="choki" src="./img/janken_choki-300x300.png" alt="">
+                              </button>
+                            </div>
+                          </div>
+
+                          <div class="panel computer">
+                            <h2>はる・ことみ</h2>
+                            <div id="computerHand" class="handWrapper">?</div>
+                          </div>
+                        </div>
+                        <div id="task" class="task">お手伝い内容：</div>
+                        <div id="outcome" class="outcome">誰がお手伝いかな？</div>
+
+                        <!-- <button id="paper" class="hand paper" onClick="onHandClick(this)">Click</button> -->
+                    
+
+                      <body class="bg-light">
+                      <div class="container">
+                        
+                        
+
+                        <div class="mei text-secondary" id="table">
+                        
+                          <div id="mei_calc" class="mei_calc">めい現在のお小遣い（＄）
+                          <div class="meinumber" data-num="2000">100</div></div>
+
+                          
+                      
+                          <img
+                            src="./img/mei.jpg"
+                            alt="Mei_Pic"
+                            width="200"
+                            height="200"/>
+
+                          <p>めいのお手伝い一覧</p>
+                          <div id="meitest" class="meitest">めいのタスクは:
+                          </div>
+
+                          <!-- <ul class="list-group haru" id="ul"></ul> -->
+
+                        </div>
+
+                    
+
+
+
+                        
+
+                        <div class="haru text-secondary" id="table">
+                    
+                          <div id="haru_calc" class="haru_calc">はる現在のお小遣い（＄）
+                          <div class="harunumber" data-num="2000">100</div></div></div>
+                          <img
+                            src="./img/haru.jpg"
+                            class="rounded-circle mb-4"
+                            alt="Mei_Pic"
+                            width="200"
+                            height="200"
+                          />
+
+                            <p>はるのお手伝い一覧</p>
+                          <div id="harutest" class="harutest">はるのタスクは:
+                          </div>
+
+                          <!-- <ul class="list-group haru" id="ul"></ul> -->
+                        </div>
+
+                        <div class="koyuki text-secondary" id="table">
+
+                          <div id="koyuki_calc" class="koyuki_calc">こゆき現在のお小遣い（＄）
+                          <div class="koyukinumber" data-num="2000">100</div></div></div>
+                          <img 
+                            src="./img/koyuki.jpg"
+                            class="rounded-circle mb-4"
+                            alt="Mei_Pic"
+                            width="200"
+                            height="200"
+                          />
+                            <p>こゆきのお手伝い一覧</p>
+                          <div id="koyukitest" class="koyukitest">こゆきのタスクは:
+                          </div>
+                        
+
+                        <div class="container">
+
+                          <div class="kotomi text-secondary" id="table">
+                            <div id="kotomi_calc" class="kotomi_calc">ことみ現在のお小遣い（＄）
+                              <div class="kotominumber" data-num="2000">100</div></div></div>
+                            </div>
+                            <img
+                              src="./img/kotomi.jpg"
+                              class="rounded-circle mb-4"
+                              alt="Mei_Pic"
+                              width="200"
+                              height="200"
+                            />
+                              <p>ことみのお手伝い一覧</p><div id="kotomitest" class="kotomitest">ことみのタスクは:</div>
+                            
+                          
+                       
+
+    
+  
+
+
+ 
+
+    
+
+
+
+  </body>
+</html>
